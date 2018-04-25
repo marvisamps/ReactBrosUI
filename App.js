@@ -20,7 +20,7 @@ const RootStack = StackNavigator(
         initialRouteName: 'Home',
         navigationOptions: {
             headerStyle: {
-                backgroundColor: '#0f69f4',
+                backgroundColor: 'purple',
             },
             headerTintColor: '#fff',
             headerTitleStyle: {

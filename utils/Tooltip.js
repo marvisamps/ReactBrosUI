@@ -49,6 +49,7 @@ const ContentRight = Content.extend`
 `;
 
 const ContentText = styled.Text`
+  font-family: 'Open Sans';
   font-size: 14px;
   text-align: center;
   padding: 10px;

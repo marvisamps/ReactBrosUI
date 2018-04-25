@@ -11,6 +11,7 @@ const Container = styled.View`
 `;
 
 const WelcomeText = styled.Text`
+  font-family: 'Open Sans';
   font-size: 20px;
   text-align: center;
   margin: 10px;

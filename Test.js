@@ -11,10 +11,19 @@ const Container = styled.View`
 `;
 
 const WelcomeText = styled.Text`
+  font-family: 'Open Sans';
   font-size: 20px;
   text-align: center;
   margin: 10px;
   color: black;
+`;
+
+const ExplanationText = styled.Text`
+  font-family: 'Open Sans';
+  font-size: 13px;
+  text-align: center;
+  margin: 10px;
+  color: blue;
 `;
 
 class TestScreen extends React.Component {
@@ -26,7 +35,8 @@ class TestScreen extends React.Component {
         return (
             <Container>
                 <WelcomeText>This is a tooltip. Try it out!</WelcomeText>
-                <Tooltip side='up' text='Content of the tooltip when clicked... It can be a veeeeery long text, it doesnt matter :)' />
+                <ExplanationText>Pass one of these values ("down", "up", "left", "right") on the side attribute to see the magic! The default value is: "down".</ExplanationText>
+                <Tooltip side="down" text="Content of the tooltip when clicked/pressed... It can be a veeeeery long text, it doesn't matter :)" />
             </Container>
         );
     }
